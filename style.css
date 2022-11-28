@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'The Nautigal', cursive;
 }
+
 body {
   min-height: 100vh;
   background: rgb(47, 60, 121);
-  background: linear-gradient(
-    0deg,
-    rgba(47, 60, 121, 1) 50%,
-    rgba(117, 61, 122, 1) 55%,
-    rgba(214, 112, 107, 1) 90%
-  );
+  background: linear-gradient(0deg,
+      rgba(214, 112, 107, 1) 30%,
+      rgba(117, 61, 122, 1) 55%,
+      rgba(47, 60, 121, 1) 90%);
 }
+
 .sea {
   position: absolute;
   bottom: 0;
   width: 100vw;
   height: 40vh;
   background: rgb(0, 27, 72);
-  background: radial-gradient(
-    circle,
-    rgba(9, 51, 96, 1) 0%,
-    rgba(0, 27, 72, 1) 85%
-  );
+  background: radial-gradient(circle,
+      rgba(9, 51, 96, 1) 0%,
+      rgba(0, 27, 72, 1) 85%);
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 5px;
 }
+
 .sun {
   position: absolute;
   top: 50%;
@@ -39,14 +39,13 @@ body {
   width: 150px;
   height: 150px;
   background: rgb(248, 208, 40);
-  background: linear-gradient(
-    180deg,
-    rgba(248, 208, 40, 1) 0%,
-    rgba(252, 149, 89, 1) 12%,
-    rgba(197, 64, 111, 1) 65%
-  );
+  background: linear-gradient(180deg,
+      rgba(248, 208, 40, 1) 0%,
+      rgba(252, 149, 89, 1) 12%,
+      rgba(197, 64, 111, 1) 65%);
   border-radius: 50%;
 }
+
 .linea {
   width: var(--largo);
   height: 3px;
@@ -55,6 +54,7 @@ body {
   border-radius: 20px;
   background: rgb(248, 208, 40);
 }
+
 .firma {
   position: absolute;
   bottom: 0;
